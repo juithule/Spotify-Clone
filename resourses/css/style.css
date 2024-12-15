@@ -1,0 +1,587 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  .hindi {
+    background-color: rgb(10, 125, 220);
+    padding: 13px;
+    font-size: 12px;
+    display: flex; /* Changed to flexbox */
+    align-items: center;
+    gap: 1100px; /* Adds spacing between items */
+}
+
+.multi-language-option {
+    color: aliceblue;
+}
+
+.cross-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    font: bold;
+}
+
+  
+  /* Navbar Styles */
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+/* Navbar */
+.Ganesh {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    justify-content: space-between;
+    height: 83px;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 200px;
+    flex: 1;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    /* Even spacing between links */
+    font-weight: bold;
+    position: relative;
+    right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #1DB954;
+    /* Spotify green color on hover */
+}
+
+.divider {
+    margin: 0 5px;
+    pointer-events: none;
+    /* Prevent the divider from being clickable */
+}
+
+.Ganesh img {
+    width: 150px; 
+    height: auto; 
+    display: block; 
+    margin-left: 160px; 
+}
+
+
+
+/* Dropdown container */
+.dropdown {
+    position: relative;
+}
+
+.premium-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 260%;
+    background-color: #333;
+    color: white;
+    padding: 2px;
+    margin-top: 2px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    z-index: 1;
+
+}
+
+.dropdown-item {
+    padding: 10px 0;
+
+}
+
+.dropdown-item:hover {
+    background-color: #000000;
+    /* Darker background for hover */
+    cursor: pointer;
+    /* Change the cursor to indicate it's clickable */
+}
+.dropdown-item:last-child {
+    border-bottom: none;
+}
+
+.dropdown-item strong {
+    display: block;
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.dropdown-item span {
+    font-size: 11px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 15px;
+    color: #ccc;
+}
+
+/* Hover effect for dropdown menu */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+  
+  
+  /* prajwal mobile Section */
+  .mobile {
+    background: linear-gradient(135deg, #ff0099, #6a00ff);
+    color: white;
+    text-align:left;
+    padding: 63px 20px;
+    height: 600px;
+    font-size: large; 
+    background-image: url('/resourses/img/ThreeDot.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .mobile .mobile-content{
+  font-size: 45px;
+  position:relative;
+  left: 650px;
+  top:120px;
+  word-spacing:-5px;
+  letter-spacing: -3px;
+  }
+  
+  .mobile .button {
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+    position:absolute;
+    left: 0px;
+  }
+  .H1 {
+    font-size: 50px;
+    word-spacing: -5px;
+    letter-spacing: -3px;
+    line-height: 1.2; /* Adjust line spacing */
+    margin-bottom: 20px;
+  }
+  
+  button:active{
+  transform:scale(0.98);
+  }
+  
+  .phone{
+    max-width:280px;
+    margin:20px auto;
+    position:relative;
+    right:550px;
+    bottom:242px
+  }
+  
+  
+  /* Why Spotify Section */
+  .why-spotify {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff; /* Set a light background */
+    color: #000;
+    height: 600px;
+  }
+  
+  .why-spotify h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 70px;
+    font-weight: bold;
+    position:relative;
+    left:500px;
+    bottom: 55px;;
+    font-size: 40px;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+  }
+  
+  .feature {
+    max-width: 220px;
+    text-align: center;
+  }
+  
+  .feature .icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .feature img {
+    width: 150px; /* Adjust icon size */
+    height: 150px;
+    /* position: relative; */
+    top: 40px;
+    right: 250px;
+    margin-left: 90px;
+  }
+  
+  .feature img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
+}
+
+.feature h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px; /* Increase this margin */
+}
+
+.feature p {
+    font-size: 14px;
+    color: black;
+    line-height: 2;
+    margin-top: 10px; /* Increase this margin */
+}
+
+/* prajwal-credit-card section */
+.prajwal-credit-card{
+  height: 28rem;
+  position:relative;
+  background:linear-gradient(180deg, #B023c2, #6d0fe1);
+  text-align: center;
+}
+.prajwal-credit-card p{
+  padding-top: 10%;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #fff;
+}
+
+/* prajwal-got-que section */
+ .faq-section{
+  padding: 3rem 18rem 2rem 20rem;
+  font-family: Arial, sans-serif;
+  max-width: 100%;
+  margin: 0;
+  background-color: white;
+  align-items: center;
+}
+
+.prajwal-got-que .h2{
+  color:#000;
+}
+
+.faq-item {
+  overflow: hidden;
+}
+
+.faq-question {
+  color:#000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 2%;
+  list-style: none;
+}
+
+.faq-question::after {
+  content: ">";
+  /* Dropdown icon */
+  font-size: 2rem;
+  color: #333333;
+  rotate: 90deg;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.faq-question:hover {
+  background-color: rgba(128, 128, 128, 0.397);
+ 
+
+}
+
+details[open] .faq-question::after {
+  transform: rotate(-180deg);
+  /* Rotate the arrow when open */
+}
+
+.faq-section h2 {
+  color: black;
+  text-align: center;
+  font-size: 2.8rem;
+  padding-bottom: 5%;
+}
+
+.faq-question a {
+  text-decoration: none;
+  color: black;
+}
+
+.faq-section hr {
+  height: 0.2rem;
+  opacity: 0.2;
+}
+
+.faq-answer {
+  padding-left: 2rem;
+  padding-top: 2%;
+  font-size: 1.2rem;
+  color: #212121;
+  background-color: #fff;
+  line-height: 1.5;
+
+}
+
+.faq-answer span {
+  color: #1ED760;
+  font-weight: bolder;
+}
+
+.faq-answer p {
+  padding: 5%;
+  line-height: 1.5;
+}
+
+
+/*prajwal-card2 section*/
+.prajwal-card-2{
+  height: 28rem;
+  position: relative;
+  background: linear-gradient(180deg, #B023c2, #6d0fe1);
+  text-align: center;
+}
+.prajwal-card-2 p{
+  color:white;
+  font-size: 5rem;
+  text-align: center;
+  padding-top:10%;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.prajwal-card-2 .prajwal-btn {
+  background:white;
+  color: black;
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.3s ease; 
+  position: relative;
+  left: 10px;
+}
+.prajwal-card-2 .prajwal-btn:hover{
+  transform: scale(1.1);
+}
+
+/* footer */
+footer {
+  background-color: #000;
+  color: #919496;
+  padding: 2rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.vivek-footer1 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  max-width: 1200px;
+}
+
+.footer-logo {
+  width: 30px;
+  text-align: left;
+  margin-left: 0px;
+}
+
+.footer-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer-col-1 {
+  width: 18%;
+  margin-bottom: 1rem;
+}
+
+.footer-col-1 h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.footer-col-1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col-1 ul li {
+  font-size: 0.9rem;
+  color: #919496;
+  padding: 0.3rem 0;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-col-1 ul li:hover {
+  color: #1ED760;
+}
+
+.footer-right {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.footer-right .icon {
+  width: 35px;
+  height: 35px;
+  background-color: #1ED760;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer-right .icon img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.footer-right .icon:hover {
+  transform: scale(1.2);
+}
+
+.end-part {
+  text-align: center;
+  width: 90%;
+  margin-top: 1rem;
+  max-width: 1200px;
+}
+
+.end-part ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.end-part ul li {
+  font-size: 0.9rem;
+  color: #919496;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.end-part ul li:hover {
+  color: #1ED760;
+}
+
+.end-part p {
+  font-size: 0.85rem;
+  color: #919496;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 1024px) {
+  .footer-col-1 {
+    width: 22%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-col-1 {
+    width: 45%;
+  }
+
+  .footer-logo {
+    width: 25%;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-col-1 {
+    width: 100%;
+  }
+
+  .footer-logo {
+    width: 40%;
+  }
+
+  .end-part ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
